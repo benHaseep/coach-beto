@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+background-color: #111;
+color: #fff;
+}
+
+body > div, header {
+  max-width: 540px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: block;
+  width: 150px;
+  text-align:center;
+  border-radius: 20px;
+  padding: 5px 0;
+  transition: 0.2s;
+  color: #000;
+  margin-top: 10px;
+}
+.btn:hover {
+  padding: 7px 7px 7px 0;
+}
+.wts {
+  background-color: hsla(142, 70%, 49%);
+}
+.insta {
+  background-color: hsla(340, 75%, 54%);
+}
+
+header {
+  background: url(images/Muhammad-Elsayed.jpg);
+  background-repeat: no-repeat;
+  height: 650px;
+  max-width: 540px;
+
+  h1 a {
+    color: #fff;
+    font-size: 80px;
+  }
+  .bio {
+    width: 230px;
+    margin-top: 10px;
+    background-color: #0000007a;
+    border-left: 7px solid #555555;
+    padding: 5px;
+    margin-left: 5px;
+  }
+  .links {
+    margin-top: 15px;
+  }
+  .btn {
+    border-radius: 0 50px 50px 0;
+  }
+  .hint {
+    font-size: 14px;
+    margin: 10px 0 0 3px;
+  }
+}
+
+.videos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.vid {
+  max-width: 300px;
+  height: 455px;
+}
+
+footer {
+margin-top: 20px;
+padding: 20px 0;
+text-align: center;
+font-size: 13px;
+color: #aaa;
+background-color: #1e252e;
+}
